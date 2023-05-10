@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+import dis
+def print_best_school():
+    print("Best School")
+dis.dis(print_best_school)
