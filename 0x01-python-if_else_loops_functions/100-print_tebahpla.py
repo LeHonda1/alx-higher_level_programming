@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-print("".join(chr(219 - i) if i % 2 == 0 else chr(155 - i) for i in range(26)), end="")
+for i in range(26):
+    if i % 2 == 0:
+        print('{:c}'.format(122 - i), end='')
+    else:
+        print('{:c}'.format(90 - i), end='')
